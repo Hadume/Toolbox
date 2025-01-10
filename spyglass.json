@@ -1,0 +1,202 @@
+{
+	"env": {
+		"dataSource": "GitHub",
+		"dependencies": [
+			"@vanilla-mcdoc"
+		],
+		"feature": {
+			"codeActions": true,
+			"colors": true,
+			"completions": true,
+			"documentHighlighting": true,
+			"documentLinks": true,
+			"foldingRanges": true,
+			"formatting": true,
+			"hover": true,
+			"inlayHint": {
+				"enabledNodes": [
+					"mcfunction:command_child/unknown"
+				]
+			},
+			"semanticColoring": false,
+			"selectionRanges": true,
+			"signatures": true
+		},
+		"gameVersion": "Auto",
+		"exclude": [
+			"@gitignore",
+			".vscode/",
+			".github/"
+		],
+		"language": "Default",
+		"permissionLevel": 2,
+		"plugins": [],
+		"mcmetaSummaryOverrides": {},
+		"useFilePolling": false
+	},
+	"format": {
+		"blockStateBracketSpacing": {
+			"inside": 0
+		},
+		"blockStateCommaSpacing": {
+			"before": 0,
+			"after": 1
+		},
+		"blockStateEqualSpacing": {
+			"before": 0,
+			"after": 1
+		},
+		"blockStateTrailingComma": false,
+		"eol": "auto",
+		"nbtArrayBracketSpacing": {
+			"inside": 0
+		},
+		"nbtArrayCommaSpacing": {
+			"before": 0,
+			"after": 1
+		},
+		"nbtArraySemicolonSpacing": {
+			"after": 1
+		},
+		"nbtArrayTrailingComma": false,
+		"nbtByteSuffix": "b",
+		"nbtCompoundBracketSpacing": {
+			"inside": 0
+		},
+		"nbtCompoundColonSpacing": {
+			"before": 0,
+			"after": 1
+		},
+		"nbtCompoundCommaSpacing": {
+			"before": 0,
+			"after": 1
+		},
+		"nbtCompoundTrailingComma": false,
+		"nbtDoubleOmitSuffix": false,
+		"nbtDoubleSuffix": "d",
+		"nbtFloatSuffix": "f",
+		"nbtListBracketSpacing": {
+			"inside": 0
+		},
+		"nbtListCommaSpacing": {
+			"before": 0,
+			"after": 1
+		},
+		"nbtListTrailingComma": false,
+		"nbtLongSuffix": "l",
+		"nbtShortSuffix": "s",
+		"selectorBracketSpacing": {
+			"inside": 0
+		},
+		"selectorCommaSpacing": {
+			"before": 0,
+			"after": 1
+		},
+		"selectorEqualSpacing": {
+			"before": 0,
+			"after": 0
+		},
+		"selectorTrailingComma": false,
+		"timeOmitTickUnit": true
+	},
+	"lint": {
+		"blockStateSortKeys": null,
+		"nbtCompoundSortKeys": null,
+		"selectorSortKeys": [
+			"warning",
+			[
+				"type",
+				"gamemode",
+				"gamemodeNeg",
+				"team",
+				"teamNeg",
+				"typeNeg",
+				"tag",
+				"tagNeg",
+				"name",
+				"nameNeg",
+				"scores",
+				"advancements",
+				"nbt",
+				"nbtNeg",
+				"predicate",
+				"predicateNeg",
+				"level",
+				"x_rotation",
+				"y_rotation",
+				"distance",
+				"x",
+				"y",
+				"z",
+				"dx",
+				"dy",
+				"dz",
+				"sort",
+				"limit"
+			]
+		],
+		"commandStringQuote": {
+			"always": false,
+			"avoidEscape": true,
+			"type": "double"
+		},
+		"nbtKeyQuote": {
+			"always": false,
+			"avoidEscape": true,
+			"type": "double"
+		},
+		"nbtPathQuote": {
+			"always": false,
+			"avoidEscape": true,
+			"type": "double"
+		},
+		"nbtStringQuote": {
+			"always": true,
+			"avoidEscape": true,
+			"type": "double"
+		},
+		"selectorKeyQuote": {
+			"always": false,
+			"avoidEscape": true,
+			"type": "double"
+		},
+		"idOmitDefaultNamespace": true,
+		"nameOfNbtKey": "^([A-Z\\d]+[a-z\\d]*((.[A-Z\\d]+)*([a-z\\d]+)*)*)*$",
+		"nameOfObjective": "^([A-Z\\d]+[a-z\\d]*((.[A-Z\\d]+)*([a-z\\d]+)*)*)*$",
+		"nameOfScoreHolder": "^(#+[A-Z\\d]*[a-z\\d]*((.[A-Z\\d]+)*([a-z\\d]+)*)*)*$",
+		"nameOfTag": "^(-*[A-Z\\d]+[a-z\\d]*((.[A-Z\\d]+)*([a-z\\d]+)*)*)*$",
+		"nameOfTeam": "^([A-Z\\d]+[a-z\\d]*((.[A-Z\\d]+)*([a-z\\d]+)*)*)*$",
+		"nbtArrayLengthCheck": true,
+		"nbtBoolean": true,
+		"nbtListLengthCheck": true,
+		"nbtTypeCheck": "strictly",
+		"strictAdvancementCheck": true,
+		"strictAttributeCheck": "always",
+		"strictBlockCheck": "always",
+		"strictBlockTagCheck": true,
+		"strictBossbarCheck": true,
+		"strictDimensionTypeCheck": "always",
+		"strictEnchantmentCheck": "always",
+		"strictEntityTypeCheck": "always",
+		"strictEntityTypeTagCheck": true,
+		"strictFluidCheck": "always",
+		"strictFluidTagCheck": true,
+		"strictFunctionCheck": true,
+		"strictFunctionTagCheck": true,
+		"strictItemCheck": "always",
+		"strictItemTagCheck": true,
+		"strictLootTableCheck": true,
+		"strictMobEffectCheck": "always",
+		"strictMotiveCheck": "always",
+		"strictObjectiveCheck": true,
+		"strictParticleTypeCheck": "always",
+		"strictPotionCheck": "always",
+		"strictPredicateCheck": true,
+		"strictRecipeCheck": true,
+		"strictScoreHolderCheck": true,
+		"strictSoundEventCheck": "only-default-namespace",
+		"strictStorageCheck": true,
+		"strictTagCheck": true,
+		"strictTeamCheck": true
+	}
+}
